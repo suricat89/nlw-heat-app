@@ -94,7 +94,7 @@ export async function signIn(githubCode: string) {
   const response = await dispatchRequest<UserSigninResponse>(api, 'POST', url, {
     data: {
       code: githubCode,
-      source: 'web'
+      source: 'mobile'
     }
   });
 
