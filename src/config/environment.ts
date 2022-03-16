@@ -1,6 +1,5 @@
 /* eslint-disable no-template-curly-in-string */
-// import _ from 'lodash';
-const _ = require('lodash');
+import _ from 'lodash';
 
 export const environment = {
   app: {
